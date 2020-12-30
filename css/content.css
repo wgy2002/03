@@ -1,0 +1,495 @@
+/* 三张图片 */
+.content-1{
+    height: 200px;
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #d7dbed; 
+}
+.img-1{
+    background-image:url(../img/1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 200px;
+    width:465px; 
+    margin-right: 2px;
+    background-color:  #d7dbed;
+    float: left;
+     }
+.img-2{
+    background-image:url(../img/2.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 200px;
+    width:465px;  
+    margin-right: 2px;
+    background-color:  #d7dbed  ;
+   float: left;
+}
+.img-3{
+    background-image:url(../img/3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 200px;
+    width:465px;  
+    background-color: #d7dbed;
+    float: left;
+}
+.first{
+    font-size: 30px;
+    color: #0068B7;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.second{
+    font-size: 17px;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 260px;
+}
+/* 蓝色盒子样式 */
+.homepage {
+    width:100%;
+    height: 410px;
+    display: block;
+    background-color: #0078d4;
+}
+.homepage-left {
+    width:100%;
+    height: 310px;
+    padding: 30px 0px;
+    clear: both;
+    display: flex;
+}
+.homepage-nav {
+    text-align: right;
+    display: inline-block;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #1483d7;
+}
+.homepage-nav ul li {
+    list-style: none;
+    margin-bottom: 19px;
+    margin-left: 300px;
+    padding-right: 30px;
+}
+.homepage-nav a:hover {
+    color: white;
+    transition:color 0.4s;
+    cursor: pointer;
+}
+.homepage-right {
+    width: 750px;
+    height: 310px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+
+
+.homepage-upwords {
+    color: white;
+    font-size: 40px;
+}
+.homepage-downwords {
+    color: white;
+}
+.homepage-button {
+    width: 140px;
+    height: 40px;
+    display: block;
+    background-color: #0078d4;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+.homepage-button:hover {
+    background-color: white;
+    color: #0078d4;
+    transition: background-color  0.5s;
+}
+
+.imgSpan {
+    width: 280px;
+    height: 80px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-image: url(../img/58b92856dc1042c0bbfcfb628577ef04.png);
+}
+/* 等64个 */
+.content-3-all{
+    height: 1353px;
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    background-color: rgb(255, 255, 255);
+}
+.content-3{
+    height: 1123px;
+    width: 1323px;
+    margin: 0 auto;
+    background-color: white;
+     /* display: flex;
+    justify-content: center;  */
+}
+.content-3-title{
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+   justify-content: center;
+    background-color: rgb(255, 255, 255);
+} 
+.box{
+    width: 100%;
+}
+.box-1 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-x-1 {
+    font-size: 23px;
+}
+
+.box-x-2 {
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.box-img{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box-x-2-1{
+    width: 100%;
+    
+}
+.box-x-3 {
+    display: block;
+    height: 20px;
+    color: rgb(6, 109, 206);
+    cursor: pointer;
+}
+.box-x-3:hover{
+    border-bottom: 2px solid  rgb(6, 109, 206);
+}
+.box-2 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-3 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-4 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    /* border-right: 1px solid  #efefef; */
+    float: left;
+}
+.box-5 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-6 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-7 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-8 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    /* border-right: 1px solid  #efefef; */
+    float: left;
+}
+.box-9 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-10 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-11 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    border-right: 1px solid  #efefef;
+    float: left;
+}
+.box-12 {
+    height: 320px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom:1px solid #efefef;
+    /* border-right: 1px solid  #efefef; */
+    float: left;
+}
+.hiddendiv {
+    width: 1601px;
+    height: 152px;
+    float: left;
+    margin-top: -1px;
+    background-color: #ffffff;
+}
+.hidden-h3  {
+    margin-top: 50px;
+    margin-left: 605px;
+    font-weight: normal;
+    color:#008de0;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+.hidden-button {
+    font-family: 'icomoon';
+    color: #008de0;
+    font-size: 80px;
+    margin-left: 625px;
+    cursor: pointer;
+    display: block;
+    width: 120px;
+}
+
+/* 看看谁在使用Azure */
+ .content-4{
+    background-image:url(../img/case-background-image-1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    margin-top:82px ;
+   } 
+.content-4-title{
+    color: white;
+    font-size: 30px;
+    height: 30px;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/* Azure技术遍布全球 */
+
+/* .content-5{
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+} */
+
+
+/* 末尾 */
+
+.bottom-div {
+    background-color: #000000;
+    width: 100%;
+    height: 54px;
+}
+.bottom-ul  {
+    line-height: 54px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.bottom-ul li {
+    height: 54px;
+    width: 534px;
+}
+.bottom-ul li:hover {
+    color: #327ad7;
+    cursor: pointer;
+}
+
+.gray-div {
+    height: 414px;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+}
+.graydiv-img {
+    display: inline-block;
+    width: 295px;
+    height: 414px;
+    margin-left: 140px;
+}
+.gray-blank {
+    height: 20px;
+    width: 295px;
+    display: inline-block;
+}
+.h31 {
+    color: #a9a9a9;
+    font-weight: normal;
+    font-size: 13px;
+}
+.h32 {
+    color: #1a1a1a;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: -0px;
+}
+#h32-1 {
+    margin-left: 21px;
+}
+#h32-2{
+    margin-left: 12px;
+}
+.graydiv-img1 {
+    width: 105px;
+    height: 128px;
+    background-color: white;
+}
+
+
+.graydiv-1{
+    width: 392px;
+    height: 413px;
+    display: inline-block;
+}
+.graydiv-1 ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.graydiv-1 ul li span {
+    width: 392px;
+    height: 20px;
+    display: block;
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+}
+.graydiv-1 ul li span:hover{
+    color: #327ad7;
+    cursor: pointer;
+}
+#graydiv-1-h3 {
+    margin-left: 39px;
+}
+#graydiv-2-h3 {
+    margin-left: 39px;
+}
+#graydiv-3-h3-1 {
+    margin-left: 39px;
+}
+#graydiv-3-h3-2 {
+    margin-left: 39px;
+}
+
+
+.lastdiv {
+    width: 100%;
+    height: 20px;
+    color: white;
+    font-size: 13px;
+    background-color:  #1a1a1a;
+}
+#lastspan1 {
+    margin-left: 190px;
+}
+.lastdiv span {
+    margin-right: 40px;
+}
+#lastspan2 {
+    text-align: right;
+}
+/* 二维码 */
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+.test img:last-child{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    margin: -20px 0 0 0;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.test:hover img:last-child{
+    opacity: 1;
+    }
+    .test img:first-child{
+        position: fixed;
+        bottom: 5px;
+        right: 3px;
+    }

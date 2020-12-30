@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Azure 云计算-安全可信的智能云服务平台</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width,user-scalable=no,
+    initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0 ">
+    <script src="js.js" ></script>
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <style>
+        @font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kvbxtz');
+  src:  url('fonts/icomoon.eot?kvbxtz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kvbxtz') format('truetype'),
+    url('fonts/icomoon.woff?kvbxtz') format('woff'),
+    url('fonts/icomoon.svg?kvbxtz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="logo">
+            <a href="#" ><img src="img/logo.jpeg" alt="logo"></a>
+        </div> 
+        <div class="login"><a href="#">登录Azure门户</a></div>
+        <div class="search">
+            <form>
+            <input type="text" placeholder="请输入关键搜索词">
+            <button class="search-ico" > 
+                
+            </button>
+        </form>
+           
+        </div>
+        
+         </div>
+   
+   
+    <!-- 菜单 -->
+    <div class="top">
+        <ul class="top-nav">
+            <li><a href="#">认识Azure</a>
+             <ul class="menu">
+                <li><a href="#"><div class="first-line"> 什么是Azure？</div>
+                <div class="second-line"> 了解Azure服务基础知识</div></a></li>
+                <li><a href="#"><div class="first-line">中国版Azure(世纪互联运行）vs.全球版Azure</div>
+                    <div class="second-line"> 哪种公有云最适合你？</div></a></li>
+                <li><a href="#"><div class="first-line">Azure可用服务</div>
+                    <div class="second-line"> Azure中国可用服务</div></a></li>
+            </ul>  
+            </li>
+            
+         
+            <li><a href="#">产品</a>
+            <ul class="menus">
+                <li><div class="tip-1">AI</div></a>
+                    <ul class="drop-down">
+    <li><a href="#"><div class="drop-down-content-1">认知服务</div>
+   <div class="drop-down-content-2">添加智能API功能以启用上下文交互</div></a></li>
+   <li><a href="#"><div class="drop-down-content-1">人脸识别</div>
+      <div class="drop-down-content-2">检测、识别、分析、组织和标记照片中的人脸</div></a></li>
+    <li><a href="#"><div class="drop-down-content-1">计算机视觉</div>
+       <div class="drop-down-content-2">从图像中提取可操作信息</div></a></li>
+      <li><a href="#"><div class="drop-down-content-1">内容审查器</div>
+<div class="drop-down-content-2">检测文本中的情绪、关键短语和语言</div></a></li>
+ <li><a href="#"><div class="drop-down-content-1">文本翻译</div>
+   <div class="drop-down-content-2">通过简单的REST API调用即可轻松进行实时文本翻译</div></a></li>
+   <li><a href="#"><div class="drop-down-content-1">语言理解</div>
+  <div class="drop-down-content-2">教会应用理解用户发出的命令</div></a></li>
+      <li><a href="#"><div class="drop-down-content-1">语音服务</div>
+     <div class="drop-down-content-2">将语音转换为文本，文本转换为自然语音</div></a></li>
+    <li><a href="#"><div class="drop-down-content-1">Metrics Advisor</div>
+   <div class="drop-down-content-2">主动监视指标和诊断问题的AI分析服务</div></a></li>
+    <li><a href="#"><div class="drop-down-content-1">Azure认知搜索</div>
+    <div class="drop-down-content-2">用于移动和Web应用开发的Al支持的云搜索服务</div></a></li>
+        <li><a href="#"><div class="drop-down-content-1">机器学习</div>
+    <div class="drop-down-content-2">构建和训练模型，并将其从云端部署到边缘</div></a></li>
+      <li><a href="#"><div class="drop-down-content-1">Azure Databricks</div>
+        <div class="drop-down-content-2">基于Apache SparkTM的简便快捷的协作式分析服务</div></a></li>
+                    </ul>
+                    </li>
+                <li><div class="tip-1">Azure Stack</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">Azure Stack</div>
+                        <div class="drop-down-content-2">Azure Stack是Azure的扩展一将 云计算的敏捷性和创新性带入您的本地环境，实现唯一的混合云，从而允许您在任何地方构建和部署混合应用程序。我们汇集了最佳的边缘和云，在您环境中的任何地方提供Azure服务。</div></a></li>
+                        </ul>
+                </li>
+ <li><div class="tip-1">安全性</div>
+  <ul class="drop-down">
+   <li><a href="#"><div class="drop-down-content-1">密钥保管库</div>
+        <div class="drop-down-content-2">保护并保持控制密钥和机密</div></a></li>
+             <li><a href="#"><div class="drop-down-content-1">Azure Active Directory</div>
+                    <div class="drop-down-content-2">同步本地目录并启用单一登录</div></a></li>
+                    <li><a href="#"><div class="drop-down-content-1">应用程序网关</div>
+      <div class="drop-down-content-2">在Azure中生成安全、可缩放且高度可用的Web前端</div></a></li>
+  <li><a href="#"><div class="drop-down-content-1">Azure Web应用程序防火墙</div>
+     <div class="drop-down-content-2">-种云原生Web应用程序防火墙(WAF)服务，为Web应用提供强大的保护</div></a></li>
+              <li><a href="#"><div class="drop-down-content-1">VPN网关</div>
+       <div class="drop-down-content-2">创建安全的跨界连接</div></a></li>
+        <li><a href="#"><div class="drop-down-content-1">安全中心</div>
+      <div class="drop-down-content-2">跨混合云工作负荷统一安全管理并实现高级 威胁防护</div></a></li>
+       <li><a href="#"><div class="drop-down-content-1">Azure信息保护</div>
+       <div class="drop-down-content-2">随时随地更好地保护敏感信息</div></a></li>
+       <li><a href="#"><div class="drop-down-content-1">Azure Active Directory域服务</div>
+      <div class="drop-down-content-2">用于虚拟机和目录感知应用程序的域服务</div></a></li>
+       </ul>
+                    </li>
+                <li><div class="tip-1">标识</div> 
+                    <ul class="drop-down">
+                    <li><a href="#"><div class="drop-down-content-1">Azure Active Directory</div>
+                    <div class="drop-down-content-2">同步本地目录并启用单一登录</div></a></li>
+                    <li><a href="#"><div class="drop-down-content-1">Azure Active Directory B2C</div>
+                  <div class="drop-down-content-2">云中的客户标识和访问管理</div></a></li>
+                 <li><a href="#"><div class="drop-down-content-1">多重身份验证</div>
+                 <div class="drop-down-content-2">提高数据和应用的安全性，而不给用户添麻烦</div></a></li>
+                <li><a href="#"><div class="drop-down-content-1">Azure信息保护</div>
+                 <div class="drop-down-content-2">随时随地更好地保护敏感信息</div></a></li>
+                 <li><a href="#"><div class="drop-down-content-1">Azure Active Directory域服务</div>
+                  <div class="drop-down-content-2">用于虚拟机和目录感知应用程序的域服务</div></a></li>
+                    </ul>
+                </li>
+                <li><div class="tip-1">储存</div>
+                <ul class="drop-down">
+                <li><a href="#"><div class="drop-down-content-1">存储</div>
+             <div class="drop-down-content-2">持久的、高度可用的、高度可伸缩的云存储器</div></a></li>
+               <li><a href="#"><div class="drop-down-content-1">Blob存储</div>
+                   <div class="drop-down-content-2">适用于非结构化数据的基于REST的对象存储</div></a></li>
+                <li><a href="#"><div class="drop-down-content-1">Azure Data Lake Storage</div>
+              <div class="drop-down-content-2">基于Azure Blob存储构建的高度可缩放的安全Data Lake功能</div></a></li>
+                <li><a href="#"><div class="drop-down-content-1">磁盘存储</div>
+               <div class="drop-down-content-2">支持虚拟机的永久性、安全磁盘选项</div></a></li>
+                <li><a href="#"><div class="drop-down-content-1">托管磁盘</div>
+                  <div class="drop-down-content-2">用于Azure虚拟机的永久且安全的磁盘存储</div></a></li>
+                     <li><a href="#"><div class="drop-down-content-1">队列存储</div>
+                    <div class="drop-down-content-2">根据流量有效缩放应用程序</div></a></li>
+                     <li><a href="#"><div class="drop-down-content-1">文件存储</div>
+          <div class="drop-down-content-2">使用标准SMB 3.0协议的文件共享</div></a></li>
+               <li><a href="#"><div class="drop-down-content-1">Data Box</div>
+                  <div class="drop-down-content-2">用于向Azure的数据传输以及用于边缘计算的设备和解决方案</div></a></li>
+                        </ul>
+                </li>
+                <li><div class="tip-1">分析</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">SQL数据仓库</div>
+                        <div class="drop-down-content-2">弹性数据仓库即服务，具有企业级功能</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">HDInsight</div>
+                            <div class="drop-down-content-2">设置云Hadoop. Spark. R Server. HBase 和Storm群集</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">流分析</div>
+                                <div class="drop-down-content-2">实时数据流式处理，可处理来自数百万台loT设备的数据</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">Power BI Embedded</div>
+                                    <div class="drop-down-content-2">在应用程序中嵌入完整交互式的可视化数据</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">Azure分析服务</div>
+                                        <div class="drop-down-content-2">企业级分析引擎即服务</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">事件中心</div>
+                                            <div class="drop-down-content-2">从数百万个设备中接收遥测</div></a></li>
+                                            <li><a href="#"><div class="drop-down-content-1">数据工厂</div>
+                                                <div class="drop-down-content-2">轻松进行企业级规模混合数据集成</div></a></li>
+                                                <li><a href="#"><div class="drop-down-content-1">Azure数据资源管理器</div>
+                                                    <div class="drop-down-content-2">快速且高度可缩放的数据探索服务</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">管理工具</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">Azure门户</div>
+                            <div class="drop-down-content-2">在单个统一的控制台中生成、管理和监视Azure产品</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">Azure顾问</div>
+                                <div class="drop-down-content-2">个性化Azure最佳实践推荐引擎</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">自动化</div>
+                                    <div class="drop-down-content-2">使用流程自动化来简化云管理</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">备份</div>
+                                        <div class="drop-down-content-2">简单可靠的服务器云备份</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">站点恢复</div>
+                                            <div class="drop-down-content-2">安排私有云的保护和恢复</div></a></li>
+                                            <li><a href="#"><div class="drop-down-content-1">计划程序</div>
+                                                <div class="drop-down-content-2">根据简单或复杂的定期计划运行作业</div></a></li>
+                                                <li><a href="#"><div class="drop-down-content-1">Azure监控器</div>
+                                                    <div class="drop-down-content-2">高精度、实时监控所有Azure资源的数据</div></a></li>
+                                                    <li><a href="#"><div class="drop-down-content-1">Azure服务运行状况</div>
+                                                        <div class="drop-down-content-2">在受Azure服务问题影响时获取个性化指导和支持</div></a></li>
+                                                        <li><a href="#"><div class="drop-down-content-1">流量管理器</div>
+                                                            <div class="drop-down-content-2">发送传入流量，以实现高性能和高可用性</div></a></li>
+                                                            <li><a href="#"><div class="drop-down-content-1">网络观察程序</div>
+                                                                <div class="drop-down-content-2">网络性能监视和诊断解决方案</div></a></li>
+                                                                <li><a href="#"><div class="drop-down-content-1">Azure策略</div>
+                                                                    <div class="drop-down-content-2">为Azure资源大规模实施公司管理和标准</div></a></li>
+                                                                    <li><a href="#"><div class="drop-down-content-1">Azure资源管理器</div>
+                                                                        <div class="drop-down-content-2">简化应用资源的管理方式</div></a></li>
+                        
+                        </ul>
+                    </li>
+                <li><div class="tip-1">集成</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">服务总线</div>
+                        <div class="drop-down-content-2">在私有云环境和公有云环境中连接</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">API管理</div>
+                            <div class="drop-down-content-2">安全、大规模地向开发人员、合作伙伴和员工发布API</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">事件网格</div>
+                                <div class="drop-down-content-2">实现大规模的可靠事件交付</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">计算</div>
+                    <ul class="drop-down">
+          <li><a href="#"><div class="drop-down-content-1">CDN内容分发网络</div>
+      <div class="drop-down-content-2">广泛的要盖可确保安全、可靠的内容交付</div></a></li>
+<li><a href="#"><div class="drop-down-content-1">ExpressRoute</div>
+   <div class="drop-down-content-2">Azure专用网络光纤连接</div></a></li>
+   <li><a href="#"><div class="drop-down-content-1">Azure DNS</div>
+     <div class="drop-down-content-2">在Azure DNS中托管DNS域</div></a></li>
+         <li><a href="#"><div class="drop-down-content-1">虚拟网络</div>
+      <div class="drop-down-content-2">设置专用网络，可以选择连接到本地数据中心</div></a></li>
+          <li><a href="#"><div class="drop-down-content-1">流量管理器</div>
+         <div class="drop-down-content-2">发送传入流量，以实现高性能和高可用性</div></a></li>
+           <li><a href="#"><div class="drop-down-content-1">负载均衡器</div>
+      <div class="drop-down-content-2">可让你的应用程序提高可用性和网络性能</div></a></li>
+         <li><a href="#"><div class="drop-down-content-1">VPN网关</div>
+      <div class="drop-down-content-2">创建安全的跨界连接</div></a></li>
+        <li><a href="#"><div class="drop-down-content-1">应用程序网关</div>
+       <div class="drop-down-content-2">在Azure中生成安全、可缩放且高度可用的Web前端</div></a></li>
+             <li><a href="#"><div class="drop-down-content-1">网络观察程序</div>
+       <div class="drop-down-content-2">网络性能监视和诊断解决方案</div></a></li>
+   <li><a href="#"><div class="drop-down-content-1">Azure防火墙</div>
+             <div class="drop-down-content-2">云和本地网络安全，用于保护Azure虚拟网络资源</div></a></li>
+       <li><a href="#"><div class="drop-down-content-1">Azure Web应用程序防火墙</div>
+         <div class="drop-down-content-2">一种云原生Web应用程序防火墙(WAF)服务，为Web应用提供强大的保护</div></a></li>
+                                    
+                        </ul>
+                    </li>
+                <li><div class="tip-1">联网</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">虚拟机</div>
+                        <div class="drop-down-content-2">在几秒钟内预配好Windows和Linux虚拟机</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">虚拟机规模集</div>
+                            <div class="drop-down-content-2">管理并扩展到数千台Linux和Windows虚拟机</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">应用服务</div>
+                                <div class="drop-down-content-2">快速创建适用于Web和移动的强大云应用</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">批处理</div>
+                                    <div class="drop-down-content-2">云规模的作业计划和计算管理</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">Service Fabric</div>
+                                        <div class="drop-down-content-2">在Windows或Linux上开发微服务和安排容器</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">云服务</div>
+                                            <div class="drop-down-content-2">创建高度可用且可无限缩放的云应用程序和API</div></a></li>
+                                            <li><a href="#"><div class="drop-down-content-1">Azure Functions</div>
+                                                <div class="drop-down-content-2">使用无服务器代码处理事件</div></a></li>
+                                                <li><a href="#"><div class="drop-down-content-1">Azure Kubernetes服务(AKS)</div>
+                                                    <div class="drop-down-content-2">简化Kubernetes的部署，管理和操作</div></a></li>
+                                                    <li><a href="#"><div class="drop-down-content-1">Azure专用主机</div>
+                                                        <div class="drop-down-content-2">用于托管适用于Windows和Linux的Azure VM的专用物理服务器</div></a></li>
+                                                        <li><a href="#"><div class="drop-down-content-1">Azure Spring Cloud</div>
+                                                            <div class="drop-down-content-2">联合VMware共同构建和运营的完全托管的Spring Cloud服务</div></a></li>
+
+
+                        </ul>
+                    </li>
+                <li><div class="tip-1">媒体</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">媒体服务</div>
+                        <div class="drop-down-content-2">大规模编码存储和流式传输视频和音须</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">迁移</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">站点恢复</div>
+                        <div class="drop-down-content-2">安排私有云的保护和恢复</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">Azure数据库迁移服务</div>
+                            <div class="drop-down-content-2">简化本地数据库向云的迁移</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">容器</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">Service Fabric</div>
+                        <div class="drop-down-content-2">在Windows或Linux上开发微服务和安排容器</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">容器注册表</div>
+                            <div class="drop-down-content-2">将Docker专用注册表作为一流的Azure资源进行管理</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">应用服务</div>
+                                <div class="drop-down-content-2">快速创建适用于Web和移动的强大云应用</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">批处理</div>
+                                    <div class="drop-down-content-2">云规模的作业计划和计算管理</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">Azure Kubernetes服务(AKS)</div>
+                                        <div class="drop-down-content-2">简化Kubernetes的部署，管理和操作</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">容器实例</div>
+                                            <div class="drop-down-content-2">无需管理服务器，即可在Azure.上轻松运行容器</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">数据库</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">SQL数据库</div>
+                        <div class="drop-down-content-2">托管关系SQL数据库即服务</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">SQL数据仓库</div>
+                            <div class="drop-down-content-2">弹性数据仓库即服务，具有企业级功能</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">SQL Server Stretch Database</div>
+                                <div class="drop-down-content-2">将本地SQL Server数据库动态拉伸到Azure</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">Azure Cosmos DB</div>
+                                    <div class="drop-down-content-2">任何规模的分布式多模型数据库服务</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">用于Redis的Azure缓存</div>
+                                        <div class="drop-down-content-2">具有高吞吐量、低延迟的数据访问的强大应用程序</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">Azure Database for PostgreSQL</div>
+                                            <div class="drop-down-content-2">面向应用开发人员的托管PostgreSQL数据库服务</div></a></li>
+                                            <li><a href="#"><div class="drop-down-content-1">Azure Database for MySQL</div>
+                                                <div class="drop-down-content-2">面向应用开发人员的托管MySQL数据库服务</div></a></li>
+                                                <li><a href="#"><div class="drop-down-content-1">Azure Database for MariaDB</div>
+                                                    <div class="drop-down-content-2">可供企业使用的完全托管的社区MariaDB</div></a></li>
+                                                    <li><a href="#"><div class="drop-down-content-1">数据工厂</div>
+                                                        <div class="drop-down-content-2">轻松进行企业级规模混合数据集成</div></a></li>
+                                                        <li><a href="#"><div class="drop-down-content-1">Azure数据库迁移服务</div>
+                                                            <div class="drop-down-content-2">简化本地数据库向云的迁移</div></a></li>
+                                                            <li><a href="#"><div class="drop-down-content-1">Azure SQL Edge</div>
+                                                                <div class="drop-down-content-2">在Azure Platform中以专用方式使用服务</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">网站</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">应用服务</div>
+                        <div class="drop-down-content-2">快速创建适用于Web和移动的强大云应用</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">Web应用</div>
+                            <div class="drop-down-content-2">了解如何使用Azure服务创建Web Apps</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">通知中心</div>
+                                <div class="drop-down-content-2">从任何后端向任何平台发送推送通知</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">API管理</div>
+                                    <div class="drop-down-content-2">安全、大规模地向开发人员、合作伙伴和员工发布API</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">CDN内容分发网络</div>
+                                        <div class="drop-down-content-2">广泛的要盖可确保安全、可靠的内容交付</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">Azure SignalR服务</div>
+                                            <div class="drop-down-content-2">轻松添加实时Web功能</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">物联网</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">Azure loT中心</div>
+                        <div class="drop-down-content-2">连接、监视并控制数十亿loT资产</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">Azure loT边缘</div>
+                            <div class="drop-down-content-2">将云智能和分析扩展到边缘设备</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">事件中心</div>
+                                <div class="drop-down-content-2">从数百万个设备中接收遥测</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">事件网格</div>
+                                    <div class="drop-down-content-2">实现大规模的可靠事件交付</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">流分析</div>
+                                        <div class="drop-down-content-2">实时数据流式处理，可处理来自数百万台loT设备的数据</div></a></li>
+                                        <li><a href="#"><div class="drop-down-content-1">逻辑应用</div>
+                                            <div class="drop-down-content-2">快速生成功能强大的集成解决方案</div></a></li>
+                                            <li><a href="#"><div class="drop-down-content-1">通知中心</div>
+                                                <div class="drop-down-content-2">从任何后端向任何平台发送推送通知</div></a></li>
+                                                <li><a href="#"><div class="drop-down-content-1">Azure Cosmos DB</div>
+                                                    <div class="drop-down-content-2">任何规模的分布式多模型数据库服务</div></a></li>
+                                                    <li><a href="#"><div class="drop-down-content-1">API管理</div>
+                                                        <div class="drop-down-content-2">安全、大规模地向开发人员、合作伙伴和员工发布API</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">移动</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">应用服务</div>
+                        <div class="drop-down-content-2">快速创建适用于Web和移动的强大云应用</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">Web应用</div>
+                            <div class="drop-down-content-2">快速创建并部署可缩放的关键任务型Web应用</div></a></li>
+                            <li><a href="#"><div class="drop-down-content-1">移动应用</div>
+                                <div class="drop-down-content-2">构建和承载任何移动应用的后端</div></a></li>
+                                <li><a href="#"><div class="drop-down-content-1">通知中心</div>
+                                    <div class="drop-down-content-2">从任何后端向任何平台发送推送通知</div></a></li>
+                                    <li><a href="#"><div class="drop-down-content-1">API应用</div>
+                                        <div class="drop-down-content-2">轻松生成和使用云API</div></a></li>
+                        </ul>
+                    </li>
+                <li><div class="tip-1">开发人员工具</div>
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">应用程序配置</div>
+                        <div class="drop-down-content-2">用于应用程序配置的快速、可缩放的参数存储</div></a></li>
+                        </ul>
+                    </li>
+
+
+
+            </ul>
+            </li>
+            
+            
+            
+            <li><a href="#">价格</a></li>
+           
+            <li><a href="#">解决方案</a></li>
+           
+            <li><a href="#">案例与伙伴</a>
+            <ul class="menu">
+                <li><a href="#"><div class="first-line">案例研究</div>
+                    <div class="second-line">人们正在使用Azure做着令人惊叹的事，来听听他们的故事吧</div></a></li>
+                <li><a href="#"><div class="first-line">寻找合作伙伴</div>
+                    <div class="second-line">通过经验丰富的合作伙伴的帮助在云中启动并运行业务</div></a></li>
+            </ul>
+            </li>
+           
+            <li><a href="#">文档</a>
+            <ul class="menus menus-1">
+                <li class="tip-1">技术文档
+                     <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">技术文档</div>
+                        <div class="drop-down-content-2">了解如何使用Azure云服务构建和管理功能强大的应用程序；获取文档，示例代码、教程等</div></a></li>
+                        </ul>
+
+                </li>
+                <li class="tip-1">购买+计费
+                    <ul class="drop-down">
+                        <li><a href="#"><div class="drop-down-content-1">中国区Azure购买指南</div>
+                        <div class="drop-down-content-2">了解不同渠道端到段的购买流程，及详细的指导说明</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">Azure全球采购指南</div>
+                         <div class="drop-down-content-2">为考虑使用Azure海外服务的中国用户提供购买流程概述</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">中国区Azure计费文档</div>
+                        <div class="drop-down-content-2">了解中国区Azure订阅申请、账户管理、充值付款、账单解读、发票索取等流程信息</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">中国区企业协议客户Azure计费文档</div>
+                        <div class="drop-down-content-2">帮助签署高级在线服务企业客户，全面了解Azure使用过程中的账户和计费管理</div></a></li>
+                        <li><a href="#"><div class="drop-down-content-1">Azure中国用户迁移指南</div>
+                         <div class="drop-down-content-2">本指南用于指导Azure中国云用户安全、高效地在中国多个地区间进行端到端的资源迁移</div></a></li>
+                        </ul>
+                </li>
+            </ul>
+            </li>
+            
+            <li><a href="#">博客</a></li>
+            
+            <li><a href="#">培训</a></li>
+            
+            <li><a href="#">支持</a>
+            <ul class="menu">
+                <li><a href="#"><div class="first-line">联系我们</div>
+                    <div class="second-line">在线申请，微信，论坛，总之有各种方式联系到我们</div></a></li>
+                <li><a href="#"><div class="first-line">支持计划</div>
+                    <div class="second-line">看看Azure究竟提供了哪些专业技能来提高你的工作效率</div></a></li>
+                
+                <li><a href="#"><div class="first-line">服务仪表盘</div>
+                    <div class="second-line">Azure服务仪表报告</div></a></li>
+                <li><a href="#"><div class="first-line">法律信息</div>
+                    <div class="second-line">Azure服务运营的相关法律信息</div></a></li>
+                <li><a href="#"><div class="first-line">信任中心</div>
+                    <div class="second-line">解答您对数据隐私和安全的忧虑，方便查看购买和使用Azure的相关规定</div></a></li>
+                <li><a href="#"><div class="first-line">Azure知识产权保护计划</div>
+                    <div class="second-line">针对知识产权(IP )风险提供业界首创的全方位保护</div></a></li>
+                <li><a href="#"><div class="first-line">ICP备案</div>
+                    <div class="second-line">看看购买Azure服务，如何免费获取ICP备案帮助</div></a></li>
+                <li><a href="#"><div class="first-line">公安备案</div>
+                    <div class="second-line">网站用户完成ICP备室后30日内需完成公安备案</div></a></li>
+                <li><a href="#"><div class="first-line">常见问题</div>
+                    <div class="second-line">有关Azure的常见问题的快速解答</div></a></li>
+                
+            </ul>
+            </li>
+            
+            <li><a href="#">Azure市场</a></li>
+           
+            <li><a href="#">Azure Global/China</a></li>
+           
+        </ul>
+    </div> 
+    <!-- 轮播图   -->
+   
+    <div id="max">
+        <div class="re">
+            <ul>
+                <li><img src="img/a.png" alt=""></li>
+                <li><img src="img/b.png" alt=""></li>
+                <li><img src="img/c.png" alt=""></li>
+                <li><img src="img/d.png" alt=""></li>
+                <li><img src="img/a.png" alt=""></li>
+               
+            </ul>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div class="content-1">
+        <div class="img-1">
+            <a href="#">
+            <div class="first">技术文档></div>
+            <div class="second">助你了解Azure，提高工作效率，节省运营成本</div>
+            </a>
+        </div>
+        <div class="img-2">
+            <a href="#">
+            <div class="first">案例探究></div>
+            <div class="second">了解目前正在使用Azure解决方案的案例及分析</div>
+        </div></a>
+        <div class="img-3">
+            <a href="#">
+            <div class="first">最新公告></div>
+            <div class="second">Azure虚拟WAN正式发布</div>
+        </div></a>
+    </div>
+   <!-- 蓝色的盒子 -->
+    <div class="homepage">
+        <div class="homepage-left">
+            <div class="homepage-nav">
+                <ul>
+                    <li><a>电子商务</a></li>
+                    <li><a>数字媒体</a></li>
+                    <li><a>备份和存档</a></li>
+                    <li><a>大数据和分析</a></li>
+                    <li><a>开发和测试</a></li>
+                    <li><a>游戏</a></li>
+                    <li><a>数字营销</a></li>
+                </ul>
+            </div>
+            <div class="homepage-right">
+                <span class="homepage-upwords">电子商务</span>
+                <span class="imgSpan"></span>
+                <span class="homepage-downwords">
+                    利用丰富、个性化的数字营销体验吸引全球的客户。快速构建和启动根据客户需求自动缩放的数字营销活</br>
+                    动。凭借强大的数据分析，分析并提高活动的成效。
+                </span>
+                <span class="homepage-button">了解更多 ></span>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <!-- 等64个 -->
+    <div class="content-3-all">
+    <div class="content-3">
+        <div class="content-3-title">
+          <p> 为您推荐全能高效的 Azure 云产品 </p> 
+        </div>
+        <div class="box">
+            <div class="box-1">
+            <p class="box-x-1">Azure Spring Cloud</p>
+           <div class="box-img"><img src="img/01.jpg" alt=""></div>
+            <div class="box-x-2"><p >联合 VMware 共同构建和运营的完全托管的 Spring</p> 
+               <div class="box-x-2-1">Cloud 服务</div>  </div>
+            <p class="box-x-3"><span> 0元/小时 起 ></span></p>
+            </div>
+            <div class="box-2">
+                <p class="box-x-1">专用链介</p>
+               <div class="box-img"><img src="img/02.jpg" alt=""></div>
+                <div class="box-x-2"><p >改进了AZure服务资源的安全性和路由</p> </div>
+                <p class="box-x-3"><span> 0.102元/小时 起 ></span></p>
+                </div> 
+                <div class="box-3">
+                    <p class="box-x-1">Azure SQL Edge</p>
+                   <div class="box-img"><img src="img/03.jpg" alt=""></div>
+                    <div class="box-x-2"><p >占用内存少，边缘优化的SQL数据库引擎，并内置AI</p> </div>
+                    <p class="box-x-3"><span> 0.0822元/小时 起 ></span></p>
+                    </div> 
+        <div class="box-4">
+                <p class="box-x-1">Azure Databricks</p>
+                 <div class="box-img"><img src="img/04.jpg" alt=""></div>
+                  <div class="box-x-2"><p >基于Apache Spark的简便快捷的协作式分析服务</p> </div>
+                  <p class="box-x-3"><span> 0.75元/小时 起 ></span></p>
+                  </div>
+         <div class="box-5">
+                    <p class="box-x-1">虚拟机</p>
+                   <div class="box-img"><img src="img/05.jpg" alt=""></div>
+                    <div class="box-x-2"><p >在几秒钟内预配好Windows和Linux虚拟机</p> </div> 
+                    <p class="box-x-3"><span> 0.11元/小时 起 ></span></p>
+         </div>
+                
+                     <div class="box-6">
+                        <p class="box-x-1">云服务</p>
+                       <div class="box-img"><img src="img/06.jpg" alt=""></div>
+                        <div class="box-x-2"><p >创建高度可用且可无限缩放的云应用程序和API</p></div>
+                        <p class="box-x-3"><span> 0.11元/小时 起 ></span></p>
+                        </div>    
+                        
+                        <div class="box-7">
+                            <p class="box-x-1">存储</p>
+                           <div class="box-img"><img src="img/07.jpg" alt=""></div>
+                            <div class="box-x-2"><p>持久的、高度可用的、高度可伸缩的云存储器</p> </div> 
+                            <p class="box-x-3"><span> 提供免费版 ></span></p>
+                 </div>
+                 <div class="box-8">
+                    <p class="box-x-1">Azure资源管理器</p>
+                   <div class="box-img"><img src="img/08.jpg" alt=""></div>
+                    <div class="box-x-2"><p >简化应用资源的管理方式</p> </div> 
+                    <p class="box-x-3"><span> 免费 ></span></p>
+         </div>       
+        <div id="d1">
+         <div class="box-9">
+            <p class="box-x-1">应用程序配置</p>
+           <div class="box-img"><img src="img/09.jpg" alt=""></div>
+            <div class="box-x-2"><p >可大规模简化ETL的混合数据集成服务</p> </div> 
+            <p class="box-x-3"><span> 免费 ></span></p>
+ </div>
+        <div id="show-div">
+             <div class="box-10">
+                <p class="box-x-1">Azure Bastion</p>
+               <div class="box-img"><img src="img/010.jpg" alt=""></div>
+                <div class="box-x-2"><p >到虚拟机的专用且完全托管的RDP和SSH访问</p></div>
+                <p class="box-x-3"><span> 免费 ></span></p>
+                </div>    
+                
+                <div class="box-11">
+                    <p class="box-x-1">Azure Data Box</p>
+                   <div class="box-img"><img src="img/011.jpg" alt=""></div>
+                    <div class="box-x-2"><p >可在脱机状态下将数据更轻松的移入和移出</p> </div> 
+                    <p class="box-x-3"><span> 63.6元/天 起 ></span></p>
+         </div>
+         <div class="box-12">
+            <p class="box-x-1">AAD域服务</p>
+           <div class="box-img"><img src="img/012.jpg" alt=""></div>
+            <div class="box-x-2"><p >提供可放缩的高性能托管域服务</p> </div> 
+            <p class="box-x-3"><span> 4.07元/天 起 ></span></p>
+       </div>       
+    </div>
+  </div>
+</div>
+<div class="hiddendiv" id="hidden-div">
+    <h3 class="hidden-h3" onclick="hd()">全部 63 个云产品</h3>
+    <span class="hidden-button" onclick="hd()"><span>
+</div>
+
+    
+</div>
+    <!-- 看看谁在使用Azure -->
+     <div class="content-4">
+        <div class="content-4-title">
+             看看谁在使用Azure
+        </div> 
+
+    </div>
+    <!-- Azure技术遍布全球 -->
+    <div class="content-5">
+    <img src="img/遍布全球.png" alt="">
+
+    </div>
+    <!-- 末尾 -->
+    <div class="bottom-div">
+        <ul class="bottom-ul">
+            <li>未经备案的域名可能会被屏蔽</li>
+            <li>关于自查整改“翻墙”行为的通知!</li>
+            <li>互联网信息服务单位网络安全责任告知书</li>
+        </ul>
+    </div>
+
+
+    <div class="gray-div">
+        <div class="graydiv-img">
+
+            <div class="gray-blank"></div>
+
+                <h3 class="h31">关注我们</h3>
+                <div class="graydiv-img1">
+                    <img src="img/g1.png">
+                    <h3 class="h32" id="h32-1">关注我们</h3>
+                </div>
+
+                <h3 class="h31">快速获取支持</h3>
+                <div class="graydiv-img1">
+                    <img src="img/g2.png">
+                    <h3 class="h32" id="h32-2">快速获取支持</h3>
+                </div>
+        </div>
+
+
+        <div class="graydiv-1">
+           <h3 class="h31" id="graydiv-1-h3">Azure</h3> 
+
+           <ul>
+               <li><span>认识 Azure</span></li>
+               <li><span>产品</span></li>
+               <li><span>价格</span></li>
+               <li><span>优惠详情</span></li>
+               <li><span>中国区 Azure 购买指南</span></li>
+               <li><span>视频中心</span></li>
+               <li><span>通用解决方案</span></li>
+               <li><span>客户案例</span></li>
+               <li><span>技术文档</span></li>
+               <li><span>博客</span></li>
+           </ul>
+        </div>
+
+
+        <div class="graydiv-1">
+            <h3 class="h31" id="graydiv-2-h3">支持</h3> 
+
+            <ul>
+                <li><span>联系我们</span></li>
+                <li><span>支持计划</span></li>
+                <li><span>服务仪表盘</span></li>
+                <li><span>法律</span></li>
+                <li><span>服务级别协议</span></li>
+                <li><span>ICP 备案</span></li>
+                <li><span>公共备案</span></li>
+                <li><span>发票</span></li>
+                <li><span>常见问题</span></li>
+                <li><span>最新公告</span></li>
+            </ul>
+        </div>
+
+
+
+        <div class="graydiv-1">
+            <h3 class="h31" id="graydiv-3-h3-1">信任中心</h3> 
+
+            <ul>
+                <li><span>信任中心首页</span></li>
+                <li><span>安全性</span></li>
+                <li><span>隐私与管控</span></li>
+                <li><span>合规性</span></li>
+                <li><span>透明度</span></li>
+            </ul>
+
+
+            <h3 class="h31" id="graydiv-3-h3-2">账户</h3>
+
+            <ul>
+                <li><span>Azure 门户</span></li>
+                <li><span>充值，订阅与账单</span></li>
+                <li><span>企业门户网站</span></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="lastdiv">
+        <span id="lastspan1">简体中文</span>
+        <span>访问全球版 Azure 网站</span>
+        <span>沪ICP备13015306号-25</span>
+        <span>沪公网安备 31011502002224</span>
+        <span id="lastspan2">隐私</span>
+
+        <span></span>
+    </div>
+    
+        <div class="test ">
+            <img src="img/00.jpeg" alt="">
+            <img src="img/100.jpg" alt="">              
+        </div>
+   
+</body>
+</html>
